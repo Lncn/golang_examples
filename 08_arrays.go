@@ -17,11 +17,11 @@ func main() {
 
     const rows = 5
     const cols = 5
-    var mult_tab [rows][cols]int
+    var multTab [rows][cols]int
     for row := 0; row < rows; row++ {
         for col := 0; col < cols; col++ {
-            mult_tab[row][col] = (row + 1) * (col + 1)
+            multTab[row][col] = (row + 1) * (col + 1)
         }
     }
-    fmt.Println("mult_tab:", mult_tab)
+    fmt.Println("multTab:", multTab)
 }
